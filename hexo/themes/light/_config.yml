@@ -1,6 +1,9 @@
 menu:
-  主页:
+  主页: 
   归档: archives
+  标签: tags
+  Github: /github.com/CalvinNing
+  关于: about
 
 widgets:
 - search
