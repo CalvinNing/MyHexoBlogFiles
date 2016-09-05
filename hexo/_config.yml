@@ -1,19 +1,21 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
+duoshuo_shortname: calvinning
 
 # Site
 # 博客名
 title: CalvinNing's Blog
-subtitle: 总有人要赢的，为什么不能是我
-description: 
+subtitle: 
+description: 总有人要赢的，为什么不能是我
 author: CalvinNing
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+#url: http://yoursite.com
+url: http://calvinning.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -64,8 +66,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: light
+theme: hexo-theme-next
 
+#Local Search
+search:
+  path: search.xml
+  field: post
+  
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
