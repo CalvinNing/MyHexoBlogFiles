@@ -67,8 +67,9 @@
             </a>
           </div>
         {% endif %}
-
-        <div class="links-of-author motion-element">
+		
+		{#  <div class="links-of-author motion-element"> #}
+       <div class="feed-link motion-element">
           {% if theme.social %}
             {% for name, link in theme.social %}
               <span class="links-of-author-item">
@@ -92,6 +93,13 @@
           </div>
         {% endif %}
 
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
         {# Blogroll #}
         {% if theme.links %}
           <div class="links-of-blogroll motion-element {{ "links-of-blogroll-" + theme.links_layout | default('inline') }}">
